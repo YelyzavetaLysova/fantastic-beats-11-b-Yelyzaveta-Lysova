@@ -1,0 +1,108 @@
+:root
+{
+    --fixedWidth: 550px;
+}
+
+.heroBlock
+{
+    border-radius: 25px;
+    width: var(--fixedWidth);
+    background-color: #565656;
+    text-align: left;
+
+}
+
+.titleText
+{
+    background-image: url(../img/back-img-03.jpg);
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.margins
+{
+    padding: 13px 0 13px 0;
+}
+
+.titleText > p
+{
+    font-size: 32px;
+    padding: 250px 45px 20px 30px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body
+{
+    color: white;
+    background-color: black;
+    font-family: Tahoma;
+    font-size: 14px;
+    margin: 15px
+
+}
+
+.greyText
+{
+    padding: 10px 0 10px 30px;
+    color: #CED4DA;
+    font-size: 16px;
+    line-height: 0.8;
+}
+
+.whiteText
+{
+    color: white;
+}
+
+.mainText
+{
+    color: #e9ecef;
+    text-align: left;
+    width: var(--fixedWidth);
+    line-height: 1.8;
+    padding: 0 0 0 15px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.margin
+{
+    margin-block-end: 5px;
+}
+
+.list
+{
+    list-style-type: disc;
+    padding-inline-start: 20px;
+    margin-block-start: 0;
+    line-height: 20px;
+    margin-block-end: 25px;
+}
+
+a
+{
+    color:white;
+}
+
+a:active
+{
+    color:white;
+}
+
+a:visited
+{
+    color:white;
+}
+
+a:hover
+{
+    color:white;
+}
+
